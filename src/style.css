@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+#mainContainer {
+  width: 500px;
+  margin: auto;
+  background-color: rgb(209, 209, 209);
+  padding: 20px;
+  text-align: center;
+}
+
+#mainContainer li {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#botonLanzamiento {
+  margin-top: 30px;
+  border: none;
+  background-color: rgb(108, 154, 253);
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#botonLanzamiento:hover {
+  background-color: rgb(163, 192, 253);
+}
