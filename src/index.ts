@@ -34,14 +34,14 @@ function lanzamiento() {
   }
 
   document.getElementById("divLanzamiento")?.innerHTML =
-    "<p>Dados con el mismo numero: " +
-    sumaMismo +
-    " veces" +
     "<p> El 7 salio:" +
     sumaSietes +
     " veces" +
     "<p>La suma total de los dados es de: " +
     sumaTotal +
+    "<p>Dados con el mismo numero: " +
+    sumaMismo +
+    " veces" +
     "</p>";
 }
 
